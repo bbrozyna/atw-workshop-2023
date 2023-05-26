@@ -20,10 +20,10 @@ For the e2e tests in repo please use following guidelines:
 2. Test file names should describe main tested area. Example: `cart.spec.js`. 
 For longer names please use camelCase convention.
 3. Test suites should combine `describe` and `it` blocks into the one phrase 
-explaining the test intention. Example
+explaining the test intention by defining action and expected result. Example
 ```javascript
 describe('Collections', () => {
-    it("are displayed and filtered by trending", () => {
+    it("should be displayed and filtered by trending", () => {
     })
 ```
 
