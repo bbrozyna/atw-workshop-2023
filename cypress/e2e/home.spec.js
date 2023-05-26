@@ -40,7 +40,6 @@ it('Categories', () => {
     })
 
     it('Product', () => { // todo important
-     so..uct
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
