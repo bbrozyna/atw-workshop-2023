@@ -13,9 +13,16 @@ Together by exploratory test and code audit you will try to undestand how applia
 
 Then you will reorginze test and map them to actual business requirements.
 
+## Test naming convention
+
+For the e2e tests in repo please use following guidelines:
+1. For the suffix, please use `*.spec.js` for test level clarity
+2. Test file names should describe main tested area. Example: `cart.e2e.js`. 
+For longer names please use camelCase convention.
+3. Test item
 
 ## For the workshop you will need:
-1. Instaled node and npm
+1. Installed node and npm
 2. Ide of your choice that is supporing JavaScript
 3. Zoom for communication
 4. Access to slack (send in mail)
