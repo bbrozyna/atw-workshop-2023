@@ -1,4 +1,18 @@
-describe('Cart Operations', () => {
+describe('Cart', () => {
+
+    context("Your Cart", () => {
+            it("should change the price when adding addons", () => {
+        //add plate to cart
+        //in cart
+        // add gloss
+        // add frame
+        // change size
+        // change count
+        //check if price is correct
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
+            })
+    })
     beforeEach(() => {
         cy.visit('');
     })
