@@ -1,13 +1,12 @@
 
-// Note all test are just dummies
-describe('homepage test', () => {
+describe('Home Page', () => {
     before(() => {
         cy.visit('');
     })
 
-    it('CoE', () => {
+    it('should display Calendar of Events and big banner', () => {
         // Enter main page
-        // on top of side there should slide with new products and promotion aka Calender of Events
+        // on top of side there should slide with new products and promotion aka Calendar of Events
         // check if it displays properly
         // and elements are clickable
 
@@ -16,15 +15,14 @@ describe('homepage test', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-it('Categories', () => {
+it('should display all clickable categories', () => {
         // check if all categories are displayed
         // check if they are clickable
-        // check if they are displayed properly
 
     cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('page bottom', () => {
+    it('should display footer', () => {
         // check if footer is displayed
         // check if all elements are displayed
         // check if all elements are clickable
@@ -32,18 +30,25 @@ it('Categories', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('Logo', () => {
+    it('should display logo', () => {
         // check if logo is displayed
         // check if logo is clickable
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('Product', () => { // todo important
 
+    it('should display best selling feed', () => { // todo important
+        //check if best selling feed is displayed
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
+    it("", () => {
+        // click first product
+        // add it to cart
+        // check if go to cart screen is displayed
+        // go to cart and check product
+    })
     it('Search', () => {
         // check if search bar is displayed
         // check if it is clickable
