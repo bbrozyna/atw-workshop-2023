@@ -45,7 +45,13 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it(.
+    it("Remove from cart", () => {
+        //add plate to cart
+        // add difrent plate to cart
+        // go to cart
+        // remove 1st plate
+        // plate remove
+        // remove 2nd plate
         //redirect to homepage
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
