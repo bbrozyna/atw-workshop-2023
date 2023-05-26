@@ -17,9 +17,15 @@ Then you will reorginze test and map them to actual business requirements.
 
 For the e2e tests in repo please use following guidelines:
 1. For the suffix, please use `*.spec.js` for test level clarity
-2. Test file names should describe main tested area. Example: `cart.e2e.js`. 
+2. Test file names should describe main tested area. Example: `cart.spec.js`. 
 For longer names please use camelCase convention.
-3. Test item
+3. Test suites should combine `describe` and `it` blocks into the one phrase 
+explaining the test intention. Example
+```javascript
+describe('Collections', () => {
+    it("are displayed and filtered by trending", () => {
+    })
+```
 
 ## For the workshop you will need:
 1. Installed node and npm
