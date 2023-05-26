@@ -3,6 +3,15 @@ describe('Test for wishlist', () => {
     cy.visit('');
   })
 
+  it("should be preserved on wishlist", () => {
+      //add something to wishlist
+        //go to wishlist
+        //click on
+        //check if item is still in wishlist
+        // and has added to cart text
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
+    })
+
     it("Given I've added product to wishlist When I go to wishlist Then I can remove it", () => {
         // go to home page
         // add product from feed to wishlist

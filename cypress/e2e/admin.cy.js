@@ -41,9 +41,9 @@ describe('Admin', () => {
     //create brand
     //add brand logo and layout
     // add collection
-    // add adrtworsk
+    // add artwork
     // publish brand
-    // check on fron if it is working
+    // check on front(?) if it is working
 
     cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
   })

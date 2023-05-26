@@ -3,21 +3,20 @@ describe('Browse Collection - discovereablity', () => {
         cy.visit('');
     })
 
-    it("All callection", () => {
+    it("All collection", () => {
         // go to home page
-        // select browse
-        // all collection are displaued
+        // select "Browse Posters"
+        // all collection are displayed
         // trending is first
-
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Multi plate discount", () => {
-        //generate mulit plate discount code (eg 3 plates 30% off)
+        //generate multi plate discount code (eg 3 plates 30% off)
         // add 1 plates to cart
-        //use discount code
-        // code works discount not applied
+        // use discount code
+        // code works and discount is not applied
         // add rest of plate
         // discount applied
 
@@ -25,8 +24,8 @@ describe('Browse Collection - discovereablity', () => {
     })
 
     it("Chose Category", () => {
-        // Go to browse collection
-        // click categroy dropdow
+        // Go to "Explore Collections"
+        // click category dropdown
         // chose fantasy
         // fantasy plates are displayed
 
@@ -35,12 +34,11 @@ describe('Browse Collection - discovereablity', () => {
 
     it("Sort category Category", () => {
         // Go to browse collection
-        // click categroy dropdow
+        // click category dropdown
         // chose fantasy
         // fantasy plates are displayed
         // click sort by
         // chose New
-
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })

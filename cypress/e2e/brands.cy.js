@@ -6,7 +6,7 @@ describe('Brandshop', () => {
     it("Discover brands", () => {
 //go to discover brands from main page
         // select witcher 3
-        //expeted list of collection displayed
+        //expected list of collection displayed
         // brand banner displayed
         // info that it is official brand shop displayed
 
@@ -14,8 +14,8 @@ describe('Brandshop', () => {
     })
 
     it("Discover brands II", () => {
-//hover ofver dicover brands
-        // select display more brands from menu
+//hover over discover brands // todo so hover or go to
+        // select "Discover all Brands" from menu
         // select game category
         // sort by A-Z
         // 11 bit studios should be on top
@@ -25,7 +25,7 @@ describe('Brandshop', () => {
 
     it("Poster view", () => {
 // go to any brand
-        // switch from collection view to poster view
+        // switch from collection view to "displates" view
         // plates are displayed
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
@@ -40,6 +40,6 @@ describe('Brandshop', () => {
     })
 
 
-    // not coverd buying brands in countries without license  for example Star Wars in Venezuela
+    // not covered buying brands in countries without license  for example Star Wars in Venezuela
 
 })

@@ -9,7 +9,7 @@ describe('Given I am an artis', () => {
   })
     it("Then I can see stats on my product page", () => {
 // sold
-      // revieniu
+      // revenue
       // etc
 
       cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
@@ -30,3 +30,5 @@ describe('Given I am an artis', () => {
    });
   })
 })
+
+// added artwork

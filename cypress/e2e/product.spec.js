@@ -48,7 +48,7 @@ describe('PDP Test', () => {
         // pirce is adjuster
         // change to gloss
         // price is adjusted
-        // change frame
+        // change fram/e
         // price is adjusted
         // add to cart
         // go to cart
