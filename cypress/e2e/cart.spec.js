@@ -1,4 +1,4 @@
-describe('Cart Flow', () => {
+describe('Cart Operations', () => {
     beforeEach(() => {
         cy.visit('');
     })
