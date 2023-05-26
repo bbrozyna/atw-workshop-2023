@@ -11,7 +11,7 @@ describe('homepage test', () => {
         // check if it displays properly
         // and elements are clickable
 
-        //check aslo big banner above it if it displayes and is clickable
+        //check also big banner above it if it displays and is clickable
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
@@ -39,12 +39,8 @@ it('Categories', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('Product', () => {
-        //check if best selling feed is displayed
-        // click first product
-        // add it to cart
-        // check if go to cart screen is displayed
-        // go to cart and check product
+    it('Product', () => { // todo important
+     so..uct
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
@@ -61,7 +57,7 @@ it('Categories', () => {
     })
 
 
-    it('Add to wishlist', () => {
+    it('Add to wishlist', () => { // todo important
         // select random product in any feed on HomePage
         // click on heart
         // check if product is added to wishlist

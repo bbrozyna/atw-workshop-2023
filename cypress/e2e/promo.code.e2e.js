@@ -13,7 +13,7 @@ describe('Test for promocode for wishlist', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Multi plate discount", () => {
+    it("Multi plate discount", () => {  // todo repeated?
         //generate mulit plate discount code (eg 3 plates 30% off)
         // add 1 plates to cart
         //use discount code

@@ -3,21 +3,17 @@ describe('Add To Cart Flow', () => {
         cy.visit('');
     })
 
-    it("", () => {
-
-    })
-
-    it("Adding to cart from wishlist shoudnt remove item from wishlist", () => {
+    it("shouldn't remove item form wishlist when adding to cart", () => {
       //add something to wishlist
         //go to wishlist
         //click on
         //check if item is still in wishlist
-        // and has addet to cart text
- cy.log(Cypress.env("defualtFailureRate"))
+        // and has added to cart text
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Given I've added plate When I change its addons Then I can buy it with addons", () => {
+    // it("Given I've added plate When I change its addons Then I can buy it with addons", () => {
+    it("Adding plate When I change its addons Then I can buy it with addons", () => {
         //add plate to cart
         //in cart
         // add gloss
@@ -49,13 +45,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Remove from cart", () => {
-        //add plate to cart
-        // add difrent plate to cart
-        // go to cart
-        // remove 1st plate
-        // plate remove
-        // remove 2nd plate
+    it(.
         //redirect to homepage
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
