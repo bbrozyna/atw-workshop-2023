@@ -1,19 +1,11 @@
-describe('Add To Cart Flow', () => {
+describe('Cart Flow', () => {
     beforeEach(() => {
         cy.visit('');
     })
 
-    it("shouldn't remove item form wishlist when adding to cart", () => {
-      //add something to wishlist
-        //go to wishlist
-        //click on
-        //check if item is still in wishlist
-        // and has added to cart text
-        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
-    })
 
     // it("Given I've added plate When I change its addons Then I can buy it with addons", () => {
-    it("Adding plate When I change its addons Then I can buy it with addons", () => {
+    it("should change the price when adding addons", () => {
         //add plate to cart
         //in cart
         // add gloss
@@ -25,7 +17,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Changing Country from pl to use", () => {
+    it("should change the currency for a given country", () => {
         //add plate to cart
         //in cart
         // change country to poland
@@ -36,7 +28,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Discount", () => {
+    it("should apply discount code", () => {
         //add plate to cart
         //in cart click on discount
         // insert  discount code
@@ -45,7 +37,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Remove from cart", () => {
+    it("should remove items from cart", () => {
         //add plate to cart
         // add difrent plate to cart
         // go to cart
