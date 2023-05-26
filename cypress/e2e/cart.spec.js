@@ -1,4 +1,4 @@
-describe('Cart', () => {
+describe('Cart', () => {  // todo remove
 
     context("Your Cart", () => {
             it("should change the price when adding addons", () => {
